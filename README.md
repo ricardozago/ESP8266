@@ -43,3 +43,25 @@ A versão do firmware será exibida, por exemplo:
     compile time:Jul 19 2016 18:43:55
     OK
 
+Utilize o comando abaixo para verificar em qual modo de operação o ESP está funcionando.
+
+    AT+CWMODE?
+
+Os possíveis modos de operação são:
+
+1 = Cliente
+2 = Ponto de acesso
+3 = Cliente + Ponto de acesso
+
+O comando abaixo passa para o modo cliente:
+
+    AT+CWMODE=1
+    
+É possível fazer uma busca nas redes disponíveis com:
+
+    AT+CWLAP
+    
+Ele retornará uma lista de redes disponíveis. Por exemplo:
+
+    +CWLAP:(5,"eduroam",-86,"d8:c7:c8:78:19:02",1,6,0)
+    +CWLAP:(0,"Unicamp-Configuracao",-64,"d8:c7:c8:78:18:d0",1,15,0)
