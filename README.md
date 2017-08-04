@@ -16,10 +16,30 @@ O baudrate padrão do ESP é 115200, pode-se utilizar um software de terminal pa
 
     Append CR-LF
     
-Esta opção adiciona um retorno de cursor e uma nova linha ao comando, necessário para o ESP entender que você acabou de enviar o comando.
+Esta opção adiciona um retorno de cursor e uma nova linha ao comando, necessário para o ESP entender que você acabou de enviar o comando. Para verificar a comunicação com o terminal envia o comando:
+
+    AT
+
+O ESP deverá responder com:
+
+    OK
 
 O Arduino Uno R3, possui apenas uma porta de comunicação UART, que é conectada do chip FTDI para conversão para USB. O ESP pode ser conectado nessa mesma interface, mas isso acarreta problemas de comunicação e dificuldade de programação, já que você terá 3 sistemas "conversando" em uma interface onde apenas deveriam existir 2 sistemas. Uma solução é utilizar uma biblioteca que transforma um GPIO qualquer do Arquino em porta serial, o que acarreta problemas de comunicação em baud-rates elevados, portanto é necessário dominuir o baudrate da interface UART do ESP. O comando abaixo, em um firmware atualizado faz isso:
 
     AT+UART_DEF=19200,8,1,0,0
     
-Agora você já está pronto para conectar o ESP diretamente no Arduino, 
+Agora você já está pronto para conectar o ESP diretamente no Arduino. Utilize o Shield, cujo projeto está disponível na [pasta]() e o Sketch [disponível aqui](https://github.com/ricardozago/ESP8266/tree/master/Espelho).
+
+Este Sketch copia os comandos enviados via terminal para o Arduino para o ESP e vice-versa. Isto permite conversar diretamente com o ESP e enteder melhor o seu funcionamento.
+
+Inicialmente envie o comando:
+
+    AT+GMR
+
+A versão do firmware será exibida, por exemplo:
+
+    AT version:1.3.0.0(Jul 14 2016 18:54:01)
+    SDK version:2.0.0(656edbf)
+    compile time:Jul 19 2016 18:43:55
+    OK
+
