@@ -70,11 +70,13 @@ O comando abaixo se conecta a alguma das redes disponíveis:
     AT+CWJAP="ssid","pass"
     
 Mostra o IP:
+
     AT+CIFSR
     
 O abaixo se desconecta:
+
     AT+CWQAP
     
 Lembrando, as configurações são salvas. Quando você desliga e liga o ESP, ele continua com as mesmas configurações anteriores, como o baud rate e a última rede conectada.
 
-O site do Filipeflop é um bom ponto de partida para 
+[Este tutorial do Filipeflop](http://blog.filipeflop.com/wireless/esp8266-arduino-tutorial.html) é um bom ponto de partida para criação de um simples webserver.
