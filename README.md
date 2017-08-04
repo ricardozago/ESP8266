@@ -69,8 +69,12 @@ Ele retornará uma lista de redes disponíveis. Por exemplo:
 O comando abaixo se conecta a alguma das redes disponíveis:
     AT+CWJAP="ssid","pass"
     
+Mostra o IP:
+    AT+CIFSR
+    
 O abaixo se desconecta:
     AT+CWQAP
     
 Lembrando, as configurações são salvas. Quando você desliga e liga o ESP, ele continua com as mesmas configurações anteriores, como o baud rate e a última rede conectada.
 
+O site do Filipeflop é um bom ponto de partida para 
