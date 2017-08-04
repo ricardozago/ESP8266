@@ -8,4 +8,9 @@ Para gravar o firmware podem ser utilizados diversos softwares. Existe uma ferra
 
 O [site do Filipeflop](http://blog.filipeflop.com/wireless/upgrade-de-firmware-do-modulo-esp8266.html) demonstra a montagem do circuito necessária. As configurações do gravador de ROM podem ser as mesmas da imagem abaixo:
 
+![Gravador](https://github.com/ricardozago/ESP8266/blob/master/Imagens/Gravador_ESP.png)
+
+# Caso você já estivesse com o Firmware atualizado você pode começar daqui.
+
+O Arduino Uno R3, possui apenas uma porta de comunicação UART, que é conectada do chip FTDI para conversão para USB. O ESP pode ser conectado nessa mesma interface, mas isso acarreta problemas de comunicação e dificuldade de programação, já que você terá 3 sistemas "conversando" em uma interface onde apenas deveriam existir 2 sistemas. Uma solução é utilizar uma biblioteca que transforma um GPIO qualquer do Arquino em porta serial, o que acarreta problemas de comunicação em baud-rates elevados.
 
