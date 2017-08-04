@@ -10,7 +10,16 @@ O [site do Filipeflop](http://blog.filipeflop.com/wireless/upgrade-de-firmware-d
 
 ![Gravador](https://github.com/ricardozago/ESP8266/blob/master/Imagens/Gravador_ESP.png)
 
-# Caso você já estivesse com o Firmware atualizado você pode começar daqui.
+# Ainda na interface do gravador
 
-O Arduino Uno R3, possui apenas uma porta de comunicação UART, que é conectada do chip FTDI para conversão para USB. O ESP pode ser conectado nessa mesma interface, mas isso acarreta problemas de comunicação e dificuldade de programação, já que você terá 3 sistemas "conversando" em uma interface onde apenas deveriam existir 2 sistemas. Uma solução é utilizar uma biblioteca que transforma um GPIO qualquer do Arquino em porta serial, o que acarreta problemas de comunicação em baud-rates elevados.
+O baudrate padrão do ESP é 115200, pode-se utilizar um software de terminal para comunicação, como o [Termite](https://www.compuphase.com/software_termite.htm). Entre nas configurações do termite e em Transmitted text marque a opção:
 
+    Append CR-LF
+    
+Esta opção adiciona um retorno de cursor e uma nova linha ao comando, necessário para o ESP entender que você acabou de enviar o comando.
+
+O Arduino Uno R3, possui apenas uma porta de comunicação UART, que é conectada do chip FTDI para conversão para USB. O ESP pode ser conectado nessa mesma interface, mas isso acarreta problemas de comunicação e dificuldade de programação, já que você terá 3 sistemas "conversando" em uma interface onde apenas deveriam existir 2 sistemas. Uma solução é utilizar uma biblioteca que transforma um GPIO qualquer do Arquino em porta serial, o que acarreta problemas de comunicação em baud-rates elevados, portanto é necessário dominuir o baudrate da interface UART do ESP. O comando abaixo, em um firmware atualizado faz isso:
+
+    AT+UART_DEF=19200,8,1,0,0
+    
+Agora você já está pronto para conectar o ESP diretamente no Arduino, 
