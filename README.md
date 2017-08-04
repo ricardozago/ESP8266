@@ -65,3 +65,12 @@ Ele retornará uma lista de redes disponíveis. Por exemplo:
 
     +CWLAP:(5,"eduroam",-86,"d8:c7:c8:78:19:02",1,6,0)
     +CWLAP:(0,"Unicamp-Configuracao",-64,"d8:c7:c8:78:18:d0",1,15,0)
+
+O comando abaixo se conecta a alguma das redes disponíveis:
+    AT+CWJAP="ssid","pass"
+    
+O abaixo se desconecta:
+    AT+CWQAP
+    
+Lembrando, as configurações são salvas. Quando você desliga e liga o ESP, ele continua com as mesmas configurações anteriores, como o baud rate e a última rede conectada.
+
