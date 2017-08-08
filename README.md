@@ -44,9 +44,11 @@ O Arduino Uno R3, possui apenas uma porta de comunicação UART, que é conectad
 
     AT+UART_DEF=19200,8,1,0,0
     
-Agora você já está pronto para conectar o ESP diretamente no Arduino. Utilize o Shield, cujo projeto está disponível na [pasta]() e o Sketch [disponível aqui](https://github.com/ricardozago/ESP8266/tree/master/Espelho).
+Agora você já está pronto para conectar o ESP diretamente no Arduino. Utilize o Shield, cujo projeto está disponível na [pasta](https://github.com/ricardozago/ESP8266/tree/master/Arduino%20Shield).
 
-Este Sketch copia os comandos enviados via terminal para o Arduino para o ESP e vice-versa. Isto permite conversar diretamente com o ESP e enteder melhor o seu funcionamento.
+![Shield com ESP](https://github.com/ricardozago/ESP8266/blob/master/Arduino%20Shield/Fabricar/Top.jpg)
+
+O Sketch [disponível aqui](https://github.com/ricardozago/ESP8266/tree/master/ESP-Espelho) copia os comandos enviados via terminal para o Arduino para o ESP e vice-versa. Isto permite conversar diretamente com o ESP e enteder melhor o seu funcionamento.
 
 Inicialmente envie o comando:
 
@@ -96,3 +98,9 @@ O abaixo se desconecta:
 Lembrando, as configurações são salvas. Quando você desliga e liga o ESP, ele continua com as mesmas configurações anteriores, como o baud rate e a última rede conectada.
 
 [Este tutorial do Filipeflop](http://blog.filipeflop.com/wireless/esp8266-arduino-tutorial.html) é um bom ponto de partida para criação de um simples webserver.
+
+# Observações
+
+Todos os layouts de placa desta pasta utilizam o software [Kicad](http://kicad-pcb.org/), a placas foram desenvolvida utilizando como modelo o Shield para arduino disponível como exemplo do Kicad.
+
+Seu layout foi feito a pedido do professor [Fabiano Fruett](http://www.dsif.fee.unicamp.br/~fabiano/) para uso em disciplinas na Faculdade de Engenharia Elétrica e de Computação (FEEC) da Unicamp.
