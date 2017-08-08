@@ -1,0 +1,235 @@
+Cmp-Mod V01 Created by PcbNew   date = 01/08/2017 15:30:55
+
+BeginCmp
+TimeStamp = 551AFA18
+Path = /56D721E0
+Reference = P3;
+ValeurCmp = Digital;
+IdModule  = Socket_Arduino_Uno:Socket_Strip_Arduino_1x10;
+EndCmp
+
+BeginCmp
+TimeStamp = 597F30D0
+Path = 
+Reference = REF**;
+ValeurCmp = Pin_Header_Straight_2x24_Pitch2.54mm;
+IdModule  = pin_header_2x24:Pin_Header_Straight_2x24_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 597F2A6B
+Path = 
+Reference = REF**;
+ValeurCmp = Pin_Header_Straight_1x08_Pitch2.54mm;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 597F6182
+Path = /597F5B2D
+Reference = U1;
+ValeurCmp = ESP-01v090;
+IdModule  = ESP8266:ESP-01;
+EndCmp
+
+BeginCmp
+TimeStamp = 597F6405
+Path = 
+Reference = REF**;
+ValeurCmp = Pin_Header_Straight_2x17_Pitch2.54mm;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x17_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 597F2AA3
+Path = 
+Reference = REF**;
+ValeurCmp = Pin_Header_Straight_1x08_Pitch2.54mm;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 551AF9EA
+Path = /56D70129
+Reference = P1;
+ValeurCmp = Power;
+IdModule  = Socket_Arduino_Uno:Socket_Strip_Arduino_1x08;
+EndCmp
+
+BeginCmp
+TimeStamp = 551AF9FF
+Path = /56D70DD8
+Reference = P2;
+ValeurCmp = Analog;
+IdModule  = Socket_Arduino_Uno:Socket_Strip_Arduino_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = 551AFA2F
+Path = /56D7164F
+Reference = P4;
+ValeurCmp = Digital;
+IdModule  = Socket_Arduino_Uno:Socket_Strip_Arduino_1x08;
+EndCmp
+
+BeginCmp
+TimeStamp = 5524FC44
+Path = /56D71274
+Reference = P6;
+ValeurCmp = CONN_01X01;
+IdModule  = Socket_Arduino_Uno:Arduino_1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 5524FC49
+Path = /56D712A8
+Reference = P7;
+ValeurCmp = CONN_01X01;
+IdModule  = Socket_Arduino_Uno:Arduino_1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 5524FC4E
+Path = /56D712DB
+Reference = P8;
+ValeurCmp = CONN_01X01;
+IdModule  = Socket_Arduino_Uno:Arduino_1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 597F2A02
+Path = 
+Reference = REF**;
+ValeurCmp = Pin_Header_Straight_1x06_Pitch2.54mm;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 597F2A51
+Path = 
+Reference = REF**;
+ValeurCmp = Pin_Header_Straight_1x06_Pitch2.54mm;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 597F2AF7
+Path = 
+Reference = REF**;
+ValeurCmp = Pin_Header_Straight_1x08_Pitch2.54mm;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 597F2B13
+Path = 
+Reference = REF**;
+ValeurCmp = Pin_Header_Straight_1x08_Pitch2.54mm;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 597F6164
+Path = /597F5B98
+Reference = J1;
+ValeurCmp = CONN_02X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 597F616A
+Path = /597F611C
+Reference = R1;
+ValeurCmp = 2.2k;
+IdModule  = Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 597F6170
+Path = /597F623B
+Reference = R2;
+ValeurCmp = 3.3k;
+IdModule  = Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5980A716
+Path = /597F668A
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5980BBE8
+Path = 
+Reference = G***;
+ValeurCmp = LOGO;
+IdModule  = feec_art:LOGO;
+EndCmp
+
+BeginCmp
+TimeStamp = 597F31A2
+Path = 
+Reference = REF**;
+ValeurCmp = Pin_Header_Straight_1x24_Pitch2.54mm;
+IdModule  = pin_header_1x24:Pin_Header_Straight_1x24_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 597F315C
+Path = 
+Reference = REF**;
+ValeurCmp = Pin_Header_Straight_2x24_Pitch2.54mm;
+IdModule  = pin_header_2x24:Pin_Header_Straight_2x24_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 597F3116
+Path = 
+Reference = REF**;
+ValeurCmp = Pin_Header_Straight_2x24_Pitch2.54mm;
+IdModule  = pin_header_2x24:Pin_Header_Straight_2x24_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 597F308A
+Path = 
+Reference = REF**;
+ValeurCmp = Pin_Header_Straight_2x24_Pitch2.54mm;
+IdModule  = pin_header_2x24:Pin_Header_Straight_2x24_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 597F3044
+Path = 
+Reference = REF**;
+ValeurCmp = Pin_Header_Straight_2x24_Pitch2.54mm;
+IdModule  = pin_header_2x24:Pin_Header_Straight_2x24_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 597F2FB8
+Path = 
+Reference = REF**;
+ValeurCmp = Pin_Header_Straight_2x24_Pitch2.54mm;
+IdModule  = pin_header_2x24:Pin_Header_Straight_2x24_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 597F2B8B
+Path = 
+Reference = REF**;
+ValeurCmp = Pin_Header_Straight_1x10_Pitch2.54mm;
+IdModule  = pin_header_1x10:Pin_Header_Straight_1x10_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 597F2B4F
+Path = 
+Reference = REF**;
+ValeurCmp = Pin_Header_Straight_1x10_Pitch2.54mm;
+IdModule  = pin_header_1x10:Pin_Header_Straight_1x10_Pitch2.54mm;
+EndCmp
+
+EndListe
