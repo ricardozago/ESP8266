@@ -3,9 +3,9 @@
   (general
     (links 23)
     (no_connects 2)
-    (area 104.572999 71.542 182.071334 127.694)
+    (area 110.922999 72.949999 179.653001 126.440001)
     (thickness 1.6)
-    (drawings 27)
+    (drawings 29)
     (tracks 61)
     (zones 0)
     (modules 15)
@@ -20,11 +20,12 @@
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
+    (37 F.SilkS user)
     (44 Edge.Cuts user)
   )
 
   (setup
-    (last_trace_width 0.75)
+    (last_trace_width 0.25)
     (user_trace_width 0.5)
     (user_trace_width 0.75)
     (user_trace_width 1)
@@ -711,6 +712,12 @@
       (net 9 "Net-(R4-Pad2)"))
   )
 
+  (gr_text FW (at 136.906 119.761) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text RST (at 157.988 120.523) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text 1 (at 138.938 121.285 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
