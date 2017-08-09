@@ -14,4 +14,5 @@
   (lib (name ESP-01)(type KiCad)(uri "$(KIPRJMOD)/ESP-01.pretty")(options "")(descr ""))
   (lib (name feec_silk)(type KiCad)(uri "$(KIPRJMOD)/feec_silk.pretty")(options "")(descr ""))
   (lib (name conn_2x2)(type KiCad)(uri "$(KIPRJMOD)/conn_2x2.pretty")(options "")(descr ""))
+  (lib (name ESP8266)(type KiCad)(uri "$(KIPRJMOD)/ESP8266.pretty")(options "")(descr ""))
 )
