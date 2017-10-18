@@ -98,7 +98,15 @@ O abaixo se desconecta:
     
 Lembrando, as configurações são salvas. Quando você desliga e liga o ESP, ele continua com as mesmas configurações anteriores, como o baud rate e a última rede conectada.
 
-[Este tutorial do Filipeflop](http://blog.filipeflop.com/wireless/esp8266-arduino-tutorial.html) é um bom ponto de partida para criação de um simples webserver.
+[Este tutorial do Filipeflop](http://blog.filipeflop.com/wireless/esp8266-arduino-tutorial.html) é um bom ponto de partida para criação de um simples webserver. Apenas alterei o modo de conexão, onde no Filipeflop é necessário um roteador para realizar a conexão, enquanto no meu o próprio ESP é o roteador e os dispositivos se conectam nele. Minha versão modificada está disponível [aqui](https://github.com/ricardozago/ESP8266/tree/master/Arduino%20%2B%20ESP%20-%20p%C3%A1gina%20WEB/Ler_Portas).
+
+Para [alterar o nome da rede](https://dominicm.com/esp8266-configure-access-point/) no modo AP utilize o comando:
+
+    AT+CWSAP="nome_da_rede","senha",x,y
+    
+onde se x é igual a 0 a criptografia está desabilitada. Já y escolhe o tipo da criptografia WEP (1), WPA-PSK (2), WPA2-PSK (3) e WPA/WPA2-PSK (4).
+
+[Esta página](http://allaboutee.com/2015/01/02/esp8266-arduino-led-control-from-webpage/) possui um interessante exemplo para atuar utilizando uma página Web com o Arduino+ESP. Também disponível [neste repositório](https://github.com/ricardozago/ESP8266/tree/master/Arduino%20%2B%20ESP%20-%20p%C3%A1gina%20WEB/Atuar_IO).
 
 # Observações
 
