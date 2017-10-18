@@ -47,6 +47,8 @@ O Arduino Uno R3, possui apenas uma porta de comunicação UART, que é conectad
 Agora você já está pronto para conectar o ESP diretamente no Arduino. Utilize o Shield, cujo projeto está disponível na [pasta](https://github.com/ricardozago/ESP8266/tree/master/Arduino%20Shield).
 
 ![Shield com ESP](https://github.com/ricardozago/ESP8266/blob/master/Arduino%20Shield/Fabricar/Top.jpg)
+![Shield fabricado](https://github.com/ricardozago/ESP8266/blob/master/Imagens/PCB.jpg)
+![Shield fabricado com ESP](https://github.com/ricardozago/ESP8266/blob/master/Imagens/PCBA.jpg)
 
 O Sketch [disponível aqui](https://github.com/ricardozago/ESP8266/tree/master/ESP-Espelho) copia os comandos enviados via terminal para o Arduino para o ESP e vice-versa. Isto permite conversar diretamente com o ESP e enteder melhor o seu funcionamento.
 
