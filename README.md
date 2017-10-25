@@ -106,7 +106,7 @@ Para [alterar o nome da rede](https://dominicm.com/esp8266-configure-access-poin
 
     AT+CWSAP="nome_da_rede","senha",x,y
     
-onde se x é igual a 0 a criptografia está desabilitada. Já y escolhe o tipo da criptografia WEP (1), WPA-PSK (2), WPA2-PSK (3) e WPA/WPA2-PSK (4).
+onde se y é igual a 0 a criptografia está desabilitada. Já x escolhe o tipo da criptografia WEP (1), WPA-PSK (2), WPA2-PSK (3) e WPA/WPA2-PSK (4).
 
 [Esta página](http://allaboutee.com/2015/01/02/esp8266-arduino-led-control-from-webpage/) possui um interessante exemplo para atuar utilizando uma página Web com o Arduino+ESP. Também disponível [neste repositório](https://github.com/ricardozago/ESP8266/tree/master/Arduino%20%2B%20ESP%20-%20p%C3%A1gina%20WEB/Atuar_IO).
 
